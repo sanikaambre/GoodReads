@@ -1,0 +1,54 @@
+ul.breadcrumb {
+    padding: 10px 16px;
+    list-style: none;
+    background-color: #eee;
+  }
+  ul.breadcrumb li {
+    display: inline;
+    font-size: 18px;
+  }
+  ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: black;
+    content: "/\00a0";
+  }
+
+  ul.breadcrumb li a {
+    color: #0275d8;
+    text-decoration: none;
+  }
+  
+  /* Add a color on mouse-over */
+  ul.breadcrumb li a:hover {
+    color: #01447e;
+    text-decoration: underline;
+  }
+  .container h1{
+    font-family: poppins;
+    color: white;
+  }
+  .container h2{
+    color: green;
+  }
+  .container p{
+    color: white;
+  }
+.col-md-6{
+  color: white;
+  font-size: 20px;
+}
+.col-md-8{
+  color: white;
+  font-size: 20px;
+}
+.col-md-4{
+  color: white;
+  font-size: 20px;
+}
+.col-md-12{
+  color: white;
+  font-size: 20px;
+}
+.col-lg-4 col-md-4 col-sm-10{
+  color: black;
+}
